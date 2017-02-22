@@ -10,7 +10,7 @@ function printEvenBetween(numOne,numTwo){
        var start=numOne;
        var end=numTwo;
       }
-  var listEvenBetween[];
+  var listEvenBetween= [];
     for (var i=numOne+1; i<numTwo; i++){ 
         if(i % 2 == 0) listEvenBetween.push(i);
     }
